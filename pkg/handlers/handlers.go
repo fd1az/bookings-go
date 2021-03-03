@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/fd1az/pkg/config"
-	"github.com/fd1az/pkg/models"
-	"github.com/fd1az/pkg/render"
+	"github.com/fd1az/bookings-go/pkg/config"
+	"github.com/fd1az/bookings-go/pkg/models"
+	"github.com/fd1az/bookings-go/pkg/render"
 )
 
 // Repo the repository used by the handlers

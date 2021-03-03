@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/fd1az/pkg/config"
-	"github.com/fd1az/pkg/handlers"
-	"github.com/fd1az/pkg/render"
+	"github.com/fd1az/bookings-go/pkg/config"
+	"github.com/fd1az/bookings-go/pkg/handlers"
+	"github.com/fd1az/bookings-go/pkg/render"
 )
 
 const portNumber = ":8080"
