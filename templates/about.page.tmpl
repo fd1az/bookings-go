@@ -9,7 +9,15 @@
                 <p>This is a paragraph of text</p>
 
                 <p>This came from the template: {{index .StringMap "test"}}</p>
+                <p>
+                    {{if ne (index .StringMap "remote_ip") ""}}
+                       Your remote IP address is {{index .StringMap "remote_ip"}} 
+                    {{else}}
+                        Ni de idea cual es
+                    {{end}}
+                </p>
             </div>
         </div>
     </div>
+    
 {{end}}
